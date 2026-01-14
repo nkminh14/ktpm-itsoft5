@@ -10,6 +10,12 @@ Dự án được sử dụng cho mục đích học tập, thực hành và n�
 
 ---
 
+## Thông tin sinh viên
+- Họ và tên: Nguyễn Khoa Minh
+- Mã sinh viên: BIT230270
+
+---
+
 ## Mục tiêu học phần
 - Hiểu và áp dụng các khái niệm cơ bản về kiểm thử phần mềm
 - Thực hành viết Unit Test
