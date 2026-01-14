@@ -1,49 +1,47 @@
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33b4c861-a699-46bc-8781-015b5efcfb44" />
-# KIỂM THỬ PHẦN MỀM – MÙA XUÂN 2026 (SOFT4003)
+# KTPM – ItSoft5 | Kiểm thử phần mềm
 
-## 🧾 Giới thiệu
-Repository này chứa **bài tập thực hành môn Kiểm thử phần mềm (Software Testing – SOFT4003)** trong học kỳ **Mùa Xuân 2026**.  
-Mục tiêu của học phần là làm quen và thực hành các kỹ thuật kiểm thử phần mềm, đặc biệt là **Unit Test với JUnit trong Java**.
+## Giới thiệu
+Repository này chứa bài tập và nội dung thực hành môn Kiểm thử phần mềm (Kỹ thuật phần mềm – ItSoft5).  
+Mục tiêu của dự án là áp dụng các kiến thức đã học về kiểm thử phần mềm, đặc biệt là Unit Testing, nhằm đảm bảo tính đúng đắn và chất lượng của chương trình.
 
-Dự án hiện tại tập trung vào bài thực hành **Tuần 1**, với nội dung kiểm thử chương trình **Student Analyzer**.
-
----
-
-## 📌 Nội dung bài tập
-
-### 📅 Tuần 1
-- Hoàn thành bài tập thực hành kiểm thử đơn vị (Unit Testing)
-- Xây dựng và kiểm thử module **Student Analyzer**
-- Viết các test case bằng **JUnit**
-- Kiểm tra tính đúng đắn của các chức năng xử lý dữ liệu sinh viên
+Dự án được sử dụng cho mục đích học tập, thực hành và nộp bài học phần.
 
 ---
 
-## 🧠 Mô tả chương trình: Student Analyzer
-
-**Student Analyzer** là một chương trình Java dùng để:
-- Phân tích danh sách sinh viên
-- Tính điểm trung bình
-- Đếm số sinh viên đạt loại Giỏi
-- Đảm bảo các hàm xử lý hoạt động đúng thông qua Unit Test
+## Mục tiêu học phần
+- Hiểu và áp dụng các khái niệm cơ bản về kiểm thử phần mềm
+- Thực hành viết Unit Test
+- Kiểm tra logic xử lý trong chương trình
+- Làm quen với quy trình kiểm thử trong dự án phần mềm
 
 ---
 
-## 🛠 Công nghệ sử dụng
-- **Ngôn ngữ:** Java  
-- **Framework kiểm thử:** JUnit 5  
-- **Công cụ build:** Maven  
-- **IDE khuyến nghị:** IntelliJ IDEA / Eclipse / VS Code  
+## Nội dung chính
+- Thực hành kiểm thử đơn vị (Unit Test)
+- Viết và chạy test case
+- Kiểm tra kết quả chạy test
+- Phân tích lỗi và cải thiện chất lượng mã nguồn
 
 ---
 
-## 🚀 Cách cài đặt và chạy project
+## Công nghệ và công cụ sử dụng
+- Ngôn ngữ: Java  
+- Framework kiểm thử: JUnit  
+- Công cụ build: Maven  
+- IDE khuyến nghị: IntelliJ IDEA, Eclipse, VS Code  
 
-### 🔹 Yêu cầu môi trường
-- Java JDK **17 trở lên**
-- Maven **3.8+**
+---
 
-### 🔹 Clone project
+## Hướng dẫn cài đặt và chạy dự án
+
+### Yêu cầu môi trường
+- Java JDK 17 trở lên
+- Maven 3.8 trở lên
+
+### Clone repository
 ```bash
-git clone (https://github.com/nkminh14/ktpm-itsoft5)
+git clone https://github.com/nkminh14/ktpm-itsoft5.git
+cd ktpm-itsoft5
+
