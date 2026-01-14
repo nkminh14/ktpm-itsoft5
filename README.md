@@ -46,5 +46,4 @@ Dự án hiện tại tập trung vào bài thực hành **Tuần 1**, với n�
 
 ### 🔹 Clone project
 ```bash
-git clone [https://github.com/DoLyHoangNam/Kiemthphanmemmuaxuan2026.git](https://github.com/nkminh14/ktpm-itsoft5)
-cd Kiemthphanmemmuaxuan2026
+git clone (https://github.com/nkminh14/ktpm-itsoft5)
