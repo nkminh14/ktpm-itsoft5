@@ -51,3 +51,14 @@ Dự án được sử dụng cho mục đích học tập, thực hành và n�
 git clone https://github.com/nkminh14/ktpm-itsoft5.git
 cd ktpm-itsoft5
 
+## 📑 Báo cáo kết quả của kiểm tra Junit với DT, BVA, EP
+
+- Áp dụng **Equivalence Partitioning (EP)** → **9/10**
+- Áp dụng **Boundary Value Analysis (BVA)** → **9/10**
+- Áp dụng **Decision Table (DT)** → **9,5/10**
+- Thực hiện **Unit Test bằng JUnit**
+- Sử dụng **JaCoCo** để đo **SC, BC, DC**
+- **Độ bao phủ kiểm thử đạt 100%**
+
+➡️ Hệ thống đáp ứng tốt các yêu cầu kiểm thử và hoạt động ổn định.
+
