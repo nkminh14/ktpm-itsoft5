@@ -23,18 +23,10 @@ public class StudentAnalyzer {
             return 0.0;
         }
 
-        double sum = 0.0;
-        int validCount = 0;
-        for (Double score : scores) {
-            if (score != null && score >= 0.0 && score <= 10.0) { // Check for valid scores
-                sum += score;
-                validCount++;
-            }
-        }
-
-        if (validCount == 0) {
-            return 0.0;
-        }
-        return sum / validCount;
+        return scores.stream()
+                .filter(score -> score != null && score >= 0.0 && score <= 10.0)
+                .mapToDouble(Double::doubleValue)
+                .average()
+                .orElse(0.0);
     }
 }

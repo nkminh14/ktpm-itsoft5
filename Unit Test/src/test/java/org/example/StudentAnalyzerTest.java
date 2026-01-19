@@ -176,4 +176,17 @@ public class StudentAnalyzerTest {
         // Sum = 24.6, Count = 3, Average = 8.2
         assertEquals(8.2, analyzer.calculateValidAverage(scores), 0.001);
     }
+
+    @Test
+    void countExcellentStudents_withMixedComprehensiveInvalidScores_returnsCorrectCount() {
+        List<Double> scores = Arrays.asList(9.0, -2.0, 8.5, 11.0, 7.0, null, 10.0);
+        assertEquals(3, analyzer.countExcellentStudents(scores));
+    }
+
+    @Test
+    void calculateValidAverage_withMixedComprehensiveInvalidScores_returnsCorrectAverage() {
+        List<Double> scores = Arrays.asList(9.0, -2.0, 8.5, 11.0, 7.0, null, 10.0);
+        // Valid scores: 9.0, 8.5, 7.0, 10.0 -> Sum = 34.5, Count = 4, Average = 8.625
+        assertEquals(8.625, analyzer.calculateValidAverage(scores), 0.001);
+    }
 }
